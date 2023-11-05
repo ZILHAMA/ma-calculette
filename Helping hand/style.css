@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+.navigateur{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+.navigateur a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: rgb(92, 90, 90);
+    margin: 0 20px;
+    transition: 0.5s all;
+}
+.navigateur a:hover{
+    
+    color: chocolate;
+    
+}
+
+.logo{
+    display: flex;
+       flex-direction: row-reverse;
+       }
+.Menu{
+    align-items: center;
+}
+.btns{
+    display: flex;
+    border-radius: 20px;
+}
+
+.navbar-expand-lg bg-body-tertiary{
+    display: flex;
+}
