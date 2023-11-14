@@ -20,7 +20,8 @@ body{
    padding: 20px 30px ;
    margin-bottom: 10px;
    border-radius:  10px; 
-  box-shadow: -3px -3px 7px #88857c, 3px 3px 5px #0d1d47 ;
+   user-select: none;
+   box-shadow: -3px -3px 7px #88857c, 3px 3px 5px #0d1d47 ;
       
 }
 .nav{
@@ -53,9 +54,16 @@ input[type="button"]{
     
    
 }
-.reset{
-    width: 100%;
-    color: #647299;
+#reset{
+    width: 24%;
+    background-color: #647299;
+    color: white;
+    font-size: 18px;
+}
+
+#equal{
+    background-color: #D13F30;
+    color: white;
 }
 input[type="button"]:active{
    
