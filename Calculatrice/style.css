@@ -73,5 +73,10 @@ input[type="button"]:hover {
     background-color: #3B4664;
 }
 
+@media screen and (min-width: 600px) {
+    .calculatrice {
+      width:50%
+    }
+}
 
     
